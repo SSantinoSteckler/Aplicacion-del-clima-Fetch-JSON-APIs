@@ -47,7 +47,7 @@ function obtenerClima(data) {
     $temperaturaInfo.style.color = 'green';
   }
 
-  const $descripcionInfo = document.createElement('h3');
+  const $descripcionInfo = document.createElement('h2');
   $descripcionInfo.textContent = descripcion;
 
   const $humedadInfo = document.createElement('h3');
